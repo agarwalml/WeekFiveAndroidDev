@@ -10,12 +10,15 @@
 
     <EditText
         android:id="@+id/edit_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="12345"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Sample"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="110sp">
+
+    </EditText>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
